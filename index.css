@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+#main {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 40px;
+}
+.titles {
+    font-family: Young Serif;
+    font-weight: 400;
+}
+h1.titles {
+    font-size: 3em;
+}
+#time_container {
+    width: 90%;
+    margin: auto;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 5px;
+}
+#Preparation_time {
+    font-size: 1.5em;
+    color: hsl(332, 51%, 32%);
+    font-family: Outfit;
+}
+#time {
+    font-family: Outfit;
+    font-size: 1em;
+}
+p {
+    font-family: Outfit;
+    font-size: 1em;
+}
+#img {
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+}
+#list_1 {
+    font-family: Outfit;
+}
+#list_1 li::marker {
+    color: hsl(14, 45%, 36%);
+}
+#list_2 {
+    font-family: Outfit;
+}
+#list_2 li::marker {
+    font-family: Outfit;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+table {
+    width: 80%;
+    margin: auto;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
