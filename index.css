@@ -11,31 +11,37 @@ body {
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
     border-radius: 40px;
+    color: hsl(30, 10%, 34%);
 }
 .titles {
     font-family: Young Serif;
     font-weight: 400;
+    color: hsl(14, 45%, 36%);
 }
 h1.titles {
     font-size: 3em;
+    color: hsl(24, 5%, 18%);
 }
 #time_container {
     width: 90%;
-    margin: auto;
     background-color: hsl(330, 100%, 98%);
     border-radius: 20px;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 2px;
     padding: 5px;
 }
 #Preparation_time {
     font-size: 1.5em;
     color: hsl(332, 51%, 32%);
     font-family: Outfit;
+    padding-left: 20px;
 }
 #time {
     font-family: Outfit;
     font-size: 1em;
+}
+#time li {
+    padding: 7px;
 }
 p {
     font-family: Outfit;
@@ -43,11 +49,15 @@ p {
 }
 #img {
     margin: auto;
+    width: 100%;
     justify-content: center;
     border-radius: 20px;
 }
 #list_1 {
     font-family: Outfit;
+}
+#list_1 li {
+    padding: 7px;
 }
 #list_1 li::marker {
     color: hsl(14, 45%, 36%);
@@ -55,16 +65,28 @@ p {
 #list_2 {
     font-family: Outfit;
 }
+#list_2 li {
+    padding: 7px;
+}
 #list_2 li::marker {
     font-family: Outfit;
     font-weight: 700;
     color: hsl(14, 45%, 36%);
 }
 table {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
 }
 td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Outfit;
+}
+.style_bottom {
+    border-bottom: 1px solid lightgray;
+}
+.value {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
 }
