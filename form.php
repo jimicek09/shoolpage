@@ -30,7 +30,7 @@
         ?>
 
         <form>
-            <label>2 + 2:</label>
+            <label>2 + 2:</label
             <input type="text" name="first_q">
             <br>
             <label>1 + 3:</label>

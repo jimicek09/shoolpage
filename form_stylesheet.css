@@ -1,0 +1,25 @@
+body {
+    background-color: #18191b;
+    display: grid;
+}
+#form {
+    background-color: #2d3034;
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 150px;
+}
+
+label {
+    color: #edeef0;
+    font-family: "JetBrains Mono", monospace;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 1.6;
+}
+button {
+
+}
